@@ -39,7 +39,6 @@ const displayVideoData = (video, categoryId) => {
   const noContent = document.getElementById('noContent');
   noContent.innerText = '';
 
-  
 
   if (categoryId == 1005) {
     const noContentDiv = document.createElement('div');
